@@ -6,6 +6,11 @@ angular.module('myApp')
     state: '',
     name: ''
   };
+
+  $scope.sorts = {
+    property: 'name',
+    direction: '+'
+  };
 })
 
 /**
